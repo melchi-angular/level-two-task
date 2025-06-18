@@ -1,0 +1,204 @@
+<header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center">
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="/" class="logo d-flex align-items-center"><img alt="" class="img-fluid"
+                    src="/images/11xplay/logo.png" /></a>
+            <i class="bi bi-list-nested toggle-sidebar-btn ng-star-inserted"></i>
+        </div>
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+                <li class="nav-item balance_li">
+                    <a href="javascript:void(0);" class="nav-link"><i class="bi bi-bank"></i> Balance <b>0</b></a>
+                </li>
+                <li class="nav-item expo_li">
+                    <a href="/market-analysis" routerlink="/market-analysis" class="nav-link"><i
+                            class="bi bi-bar-chart"></i> expo. <b>0</b></a>
+                </li>
+            </ul>
+        </nav>
+        <!----><!---->
+    </div>
+</header>
+
+
+<div class="commentary"><img src="/images/commentary.png" />
+    <marquee>New Version Available With International Casino Please Contact Your Upline</marquee>
+</div>
+
+
+<div id="sidebar" class="sidebar">
+    <ul id="sidebar-nav" class="sidebar-nav">
+        <img class="mobile-logo" src="/images/11xplayy/logo.png" />
+        <li class="nav-item d-none d-sm-block">
+            <a class="nav-link final-link" href="/game-detail/28127348">
+                <img src="https://speedcdn.io/assets/score_card/ipl-icon.png" /><span class="blinker">IPL
+                    2025</span>
+            </a>
+        </li>
+        <!----><!---->
+        <li class="nav-item">
+            <a [routerLink]="['/dashboard']" routerlinkactive="nmm-active" class="nav-link final-link nmm-active">
+                <img src="/images/menu-home.png" /><span>home</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['/multi-market']" routerlinkactive="nmm-active" class="nav-link multi-market final-link">
+                <img src="/images/menu-market.png" /><span>Multi Market</span>
+            </a>
+        </li>
+        <!---->
+        <li class="nav-item">
+            <a [routerLink]="['/profit-loss']" routerlinkactive="nmm-active" class="nav-link final-link">
+                <img src="/images/profitloss.svg" class="img-fluid" /><span>profit &amp; loss</span>
+            </a>
+        </li>
+        <!---->
+        <li class="nav-item">
+            <a [routerLink]="['/account-statement']" routerlinkactive="nmm-active" class="nav-link final-link">
+                <img src="/images/statement.svg" class="img-fluid" /><span>Account statement</span>
+            </a>
+        </li>
+        <!---->
+        <li class="nav-item">
+            <a [routerLink]="['/unsettled-bets']" routerlinkactive="nmm-active" class="nav-link final-link">
+                <img src="/images/bets.svg" class="img-fluid" /><span>unsettled bets</span>
+            </a>
+        </li>
+        <!---->
+        <li class="nav-item">
+            <a [routerLink]="['/rules']" class="nav-link final-link"><img src="images/terms.svg"
+                    class="img-fluid" /><span>rules</span></a>
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['/stake-settings']" routerlinkactive="nmm-active" class="nav-link final-link">
+                <img src="/images/edit.svg" class="img-fluid" /><span>edit stake</span>
+            </a>
+        </li>
+        <!---->
+        <li class="nav-item">
+            <a [routerLink]="['/profile']" routerlinkactive="nmm-active" class="nav-link final-link">
+                <img src="/images/profile_image.png" class="img-fluid" /><span>Profile (demo123)</span>
+            </a>
+        </li>
+        <!---->
+        <li class="nav-item nav-highlight" (click)="logout()">
+            <a href="javascript:void(0);" class="nav-link final-link"><img src="/images/logout.svg"
+                    class="img-fluid" /><span>Logout</span></a>
+        </li>
+        <!---->
+    </ul>
+</div>
+
+
+<div id="main" class="main">
+    <section class="section listing_page accounts">
+        <div class="row">
+            <div class="col-xl-12">
+                <h2 class="userscreen-title">account statement</h2>
+                <div class="form_search">
+                    <form novalidate="" class="ng-untouched ng-pristine ng-valid">
+                        <div class="row">
+                            <div class="col-md-2 col-6">
+                                <select formcontrolname="event_type_id"
+                                    class="form-control ng-untouched ng-pristine ng-valid">
+                                    <option value="ALL">All Sports </option>
+                                    <option value="4">Cricket </option>
+                                    <option value="1">Football </option>
+                                    <option value="2">Tennis </option>
+                                    <option value="99998">Int Casino </option>
+                                    <option value="99991">Sports book </option>
+                                    <option value="7">Horse Racing </option>
+                                    <option value="4339">Greyhound Racing </option>
+                                    <option value="99990">Binary </option>
+                                    <option value="99994">Kabaddi </option>
+                                    <option value="2378961">Politics </option>
+                                    <option value="7522">Basketball </option>
+                                    <option value="7511">Baseball </option>
+                                    <option value="20">Table Tennis </option>
+                                    <option value="998917">Volleyball </option>
+                                    <option value="7524">Ice Hockey </option>
+                                    <option value="5">Rugby </option>
+                                    <option value="26420387">Mixed Martial Arts </option>
+                                    <option value="3503">Darts </option>
+                                    <option value="29">Futsal </option>
+                                    <!---->
+                                </select>
+                            </div>
+                            <div class="col-md-2 col-6"><input type="date" formcontrolname="start_date"
+                                    class="form-control ng-untouched ng-pristine ng-valid" /></div>
+                            <div class="col-md-2 col-6"><input type="date" formcontrolname="end_date"
+                                    class="form-control ng-untouched ng-pristine ng-valid" /></div>
+                            <div class="col-md-2 col-6"><button disabled type="submit" class="btn btn-fs">get statement</button>
+                            </div>
+                            <div class="col-md-4 col-12 text-md-end text-center">
+                                <div class="document_button"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="table-responsive">
+                    <table class="datatable table  table-bordered">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>date</th>
+                                <th>Total</th>
+                                <th>balance</th>
+                                <th>D/C</th>
+                                <th>Description</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of transactions; trackBy: trackById" [ngClass]="{'highlight-row': item.Total >=70}">
+                                <td>{{ item.No }}</td>
+                                <td>{{ item.date }}</td>
+                                <td>{{ item.Total }}</td>
+                                <td>{{ item.balance }}</td>
+                                <td>{{ item.DC }}</td>
+                                <td>{{ item.Description }}</td>
+                                <td>{{ item.Details }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="pagination custom-pagination">
+                        <!-- Pagination -->
+                        <nav *ngIf="totalPages() >= 1" class="mt-3">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item" [class.disabled]="currentPage === 1">
+                                    <button class="page-link" (click)="changePage(currentPage - 1)">Previous</button>
+                                </li>
+
+                                <li class="page-item" *ngFor="let page of [].constructor(totalPages()); let i = index"
+                                    [class.active]="currentPage === i + 1">
+                                    <button class="page-link" (click)="changePage(i + 1)">
+                                        {{ i + 1 }}
+                                    </button>
+                                </li>
+
+                                <li class="page-item" [class.disabled]="currentPage === totalPages()">
+                                    <button class="page-link" (click)="changePage(currentPage + 1)">Next</button>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+
+<nav class="footer_mobilemenu">
+    <a href="/dashboard" routerlink="/dashboard" routerlinkactive="active" class="active"><img src="/images/in-play.svg"
+            class="img-fluid" /><span>in-play</span></a>
+    <a href="javascript:void(0)" routerlinkactive="active"><img src="/images/multi.svg"
+            class="img-fluid" /><span>Multi</span></a>
+    <a href="/home" routerlink="/home" routerlinkactive="active"><img src="/images/place.svg"
+            class="img-fluid" /><span>Home</span></a>
+    <a href="/sports/99999" routerlink="/sports/99999" routerlinkactive="active"><img src="/images/icon-casino.svg"
+            class="img-fluid" /><span>Casino</span></a>
+    <a href="/sports/99998" routerlink="/sports/99998" routerlinkactive="active"><img src="/images/icon-casino.svg"
+            class="img-fluid" /><span>ICasino</span></a>
+</nav>

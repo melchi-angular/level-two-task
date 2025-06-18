@@ -1,0 +1,12 @@
+@media (min-width: 1200px) {
+#main,
+#footer {
+  margin-left: 250px;
+}
+}
+
+#main {
+overflow-x: hidden;
+margin-top: 90px;
+padding: 5px;
+}

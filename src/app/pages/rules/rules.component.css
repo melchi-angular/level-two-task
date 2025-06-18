@@ -1,0 +1,22 @@
+.coming-soon-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  padding-left: 44%; 
+  background: #f9f9f9;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: left;
+}
+
+.coming-soon-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.coming-soon-container p {
+  font-size: 1.25rem;
+  color: #666;
+}

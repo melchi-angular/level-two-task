@@ -1,0 +1,546 @@
+/* New css add  */
+
+.modal-content-padding-custom {
+  margin-top: 30%;
+}
+.ab_rae_btns {
+  text-align: center;
+  padding: 5px 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.ab_rae_btns button {
+  width: 70%;
+  display: block;
+}
+.ab_btns {
+  border: 1px solid var(--theme-color);
+  padding: 2px;
+  font-size: 11px;
+}
+.ab_btns,
+.ab_btns span {
+  color: var(--theme-color);
+}
+.rae_btns {
+  background: var(--theme-color);
+}
+a.casino_chip {
+  position: fixed;
+  left: 4%;
+  bottom: 11%;
+  z-index: 9;
+}
+a.casino_chip img {
+  width: 50px;
+  animation: simple-scale 1s linear 1s infinite alternate;
+}
+.balance-information {
+  margin: 10px 0;
+}
+.balance-row {
+  display: flex;
+  justify-content: left;
+  padding: 0 10px;
+  font-size: 13px;
+}
+.balance-text-left {
+  width: 50%;
+  color: #000;
+  font-weight: 500;
+}
+.balance-price {
+  margin-left: 10px;
+  width: 50%;
+  color: #000;
+  font-weight: 600;
+}
+li.ab_rae_btns {
+  text-align: center;
+  padding: 5px 0;
+}
+li.ab_rae_btns button {
+  width: 80%;
+}
+.ab_btns {
+  border: 1px solid var(--theme-primary-color);
+  background: none;
+  text-transform: uppercase;
+  border-radius: 100px;
+  color: var(--theme-primary-color);
+  padding: 5px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.ab_btns span {
+  margin-left: 15px;
+}
+.rae_btns {
+  background: var(--theme-primary-color);
+  text-transform: uppercase;
+  border-radius: 100px;
+  color: #fff;
+  padding: 5px 18px;
+  font-size: 12px;
+  margin: 5px auto 0;
+  border: none;
+}
+.deposit-withdraw-sidebar-title img {
+  width: 7.5%;
+  margin-right: 7px;
+  line-height: 0;
+}
+a.whatsapp_link {
+  position: fixed;
+  right: 4%;
+  bottom: 10%;
+  z-index: 99;
+}
+a.whatsapp_link img {
+  width: 75px;
+  animation: simple-scale 1s linear 1s infinite alternate;
+}
+@keyframes simple-scale {
+  to {
+      transform: scale(1.2);
+  }
+}
+
+
+
+
+.fp {
+  color: #fff;
+  font-size: 13px;
+}
+.whatsapp_ids_section {
+  text-align: center;
+}
+.whatsapp_ids_section img {
+  color: #fff;
+}
+.whatsapp_link {
+  text-transform: uppercase;
+  font-size: 90%;
+  width: 55%;
+  background-color: #25d366;
+  height: 42px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #fff;
+}
+.btn-close {
+  position: absolute;
+  right: 15px;
+  opacity: 1;
+  top: 10px;
+  font-size: 25px;
+}
+
+section {
+  padding: 50px;
+  background: #0b0d2a;
+}
+.titlehome {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #fff;
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(179deg, #fff, #fff);
+  -webkit-background-clip: text;
+  font-weight: 800;
+}
+.ss_div {
+  position: relative;
+}
+.home-animated {
+  font-weight: 700;
+  letter-spacing: 1px;
+  position: absolute;
+  padding: 5px 15px;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--theme-primary-color);
+  left: 20px;
+  bottom: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  animation: zoom-in-zoom-out 1s ease-out infinite;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  to {
+      transform: scale(1);
+  }
+}
+.home-animated span {
+  border-radius: 10px;
+}
+.home-animated span:first-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #fff400, #fff);
+  animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(100%);
+  }
+}
+.home-animated span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 4px;
+  background: linear-gradient(180deg, #05fb33, #fff);
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate2 {
+  0% {
+      transform: translateY(-100%);
+  }
+  to {
+      transform: translateY(100%);
+  }
+}
+.home-animated span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(270deg, #ff7d88, #fff);
+  animation: animate3 2s linear infinite;
+}
+@keyframes animate3 {
+  0% {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+.home-animated span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: linear-gradient(0deg, #05d8fb, #fff);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate4 {
+  0% {
+      transform: translateY(100%);
+  }
+  to {
+      transform: translateY(-100%);
+  }
+}
+.casino_marketing,
+.marketing {
+  background: #000;
+}
+.casino_marketing h2,
+.marketing h2 {
+  -webkit-text-fill-color: #0000;
+  -webkit-background: linear-gradient(90deg, #fdbb2d, #22c1c3);
+  background: linear-gradient(90deg, #fdbb2d, #22c1c3);
+  -webkit-background-clip: text;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.casino_marketing p,
+.marketing p {
+  color: #fff;
+  font-size: 20px;
+}
+.thumbnail__item__pic {
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.casino .row .col-6 {
+  padding: 0 6px;
+}
+.thumbnail__item__pic img {
+  border-radius: 15px;
+}
+.all-providers .col-6 img {
+  border: 1px solid #fff;
+  width: 100%;
+  object-fit: contain;
+  padding: 0;
+  margin-bottom: 16px;
+}
+.footer_home {
+  background: #fff;
+  padding: 40px 0 10px;
+  position: relative;
+}
+.footer_home p {
+  margin-bottom: 0;
+}
+.footer_home p a {
+  color: #1a315d;
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer_home h2 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.footer_home h2:after {
+  content: "";
+  background: #ddd;
+  height: 1px;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+}
+.footer__nav ul {
+  display: inline-block;
+  margin-top: 10px;
+}
+.footer__nav ul li {
+  list-style: none;
+}
+.footer__nav ul li a {
+  font-size: 14px;
+  color: #707070;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.footer__nav ul li a:hover {
+  color: #1a315d;
+  text-decoration: underline;
+}
+.footer__copyright__text {
+  color: #000;
+  margin-bottom: 0;
+  text-align: right;
+}
+.securitylogo {
+  margin-top: 20px;
+}
+.securitylogo img {
+  height: 40px;
+}
+.footer__copyright__text a {
+  color: #e53637;
+}
+.bottom-links {
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+.footer_home img {
+  cursor: pointer;
+}
+.footer_home .bottom-links a {
+  margin: 0 5px;
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer_home .bottom-links a:hover {
+  color: #167abf;
+  text-decoration: underline;
+}
+.bottom-links a:after {
+  content: "";
+  background: #167abf;
+  position: absolute;
+  right: -7px;
+  width: 1px;
+  top: 1px;
+  height: 100%;
+}
+.bottom-links a:last-child:after {
+  display: none;
+}
+.footer__logo img {
+  width: 200px;
+}
+.footer__nav ul {
+  padding: 0;
+}
+@media (max-width: 991px) {
+  .footer_home h2:after {
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+  }
+  .footer_home h2 {
+      text-align: center;
+  }
+  .footer__logo img {
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+  }
+  .footer__logo p,
+  .footer__nav ul {
+      text-align: center;
+  }
+  .footer__nav ul {
+      margin: 0 auto;
+      padding: 0;
+  }
+  .footer__nav {
+      text-align: center;
+  }
+  section {
+      padding: 20px 0;
+  }
+  .casino_marketing h2,
+  .marketing h2 {
+      font-size: 30px;
+      text-align: center;
+  }
+  .casino_marketing p,
+  .marketing p {
+      text-align: center;
+  }
+  .home-animated {
+      padding: 3px 12px;
+      letter-spacing: 0;
+      font-size: 10px;
+      bottom: 10px;
+      left: 10px;
+  }
+  .securitylogo,
+  .titlehome {
+      text-align: center;
+  }
+  .securitylogo p.mt-3 img {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+  }
+  .all-providers .col-6 img,
+  .ss_div,
+  .thumbnail__item__pic {
+      margin-bottom: 5px;
+  }
+  .bottom-links {
+      margin-top: 10px;
+  }
+  .all-providers .row,
+  .casino .row,
+  .sportsSection .row {
+      margin: 0;
+  }
+  .all-providers .row .col-6,
+  .casino .row .col-6,
+  .sportsSection .row .col-6 {
+      padding: 0 3px;
+  }
+  .all-providers .container,
+  .casino .container,
+  .sportsSection .container {
+      padding: 0 5px;
+  }
+}
+
+.close {
+  position: absolute;
+  background: no-repeat;
+  border: none;
+  color: #fff;
+  right: 10px;
+  top: 0;
+  padding: 0;
+  font-size: 30px;
+  z-index: 9;
+}
+.toss_market  .back, .toss_market  .lay{
+  display: block;
+  margin: 0 auto;
+  height: 44px;
+  width: 80%;
+  border: none;
+  position: relative;
+}
+
+.profile ul {
+  padding: 0;
+  list-style-type: style none;
+  margin: 0px;
+}
+.profile ul li {
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.profile ul li p {
+  text-transform: capitalize;
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  align-content: center;
+}
+.profile ul li p svg {
+  margin-right: 5px;
+  background: #167abf;
+  border-radius: 10px;
+  padding: 3px;
+}
+.profile ul li p b {
+  margin-left: 5px;
+  font-size: 15px;
+}
+.changePass {
+  padding: 20px;
+}
+.changePass label {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+.changePass input {
+  border-color: #eee;
+  border-radius: 3px;
+}
+.changePass .cp-pass-btn {
+  background: #00b11e;
+  font-weight: 900;
+  font-size: 15px;
+  height: auto;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 8px;
+}
+.changePass .form-group {
+  margin-bottom: 15px;
+}
+
+.card-header.panel-enabled {
+  cursor: pointer;
+}
+ .card-header.panel-disabled .btn.btn-link {
+  cursor: default;
+  text-decoration: none;
+}
